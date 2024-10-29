@@ -1,0 +1,25 @@
+body {
+    background-color: red;
+}
+
+form {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#inp {
+   padding: 10px;
+   border: none;
+
+}
+
+.elmDiv {
+    background: yellow;
+    height: 100px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
