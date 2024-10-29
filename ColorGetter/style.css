@@ -1,0 +1,29 @@
+.container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background-color: aquamarine;
+    position: fixed;
+
+}
+
+#colorBackground {
+    width: 200px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+#hashNumber {
+    font-size: 30px;
+}
+
+#colorPicker {
+    width: 200px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
