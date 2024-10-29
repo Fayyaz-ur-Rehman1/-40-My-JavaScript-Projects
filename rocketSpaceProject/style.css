@@ -1,0 +1,20 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: url("./img/bg-img.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+#mydiv {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    transition: 0.2s ease-out;
+}
+
+#mydiv img {
+    width: 100px;
+}
