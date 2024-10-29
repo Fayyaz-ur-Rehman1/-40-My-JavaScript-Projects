@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+
+.container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background-color: aquamarine;
+    border: 5px solid sandybrown;
+    border-radius: 6px;
+}
+
+.inside {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: rgb(171, 254, 28);
+    border: 5px solid rgb(144, 18, 172);
+    border-radius: 6px;
+    top: 0;
+    left: 0;
+}
