@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-image: url('https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-size: cover;
+
+}
+h1 {
+    color: white;
+    font-size: 60px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    width: 200px;
+    cursor: pointer;
+    background-color: orangered;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+
+
+.btn:hover {
+   filter: brightness(0.8); 
+}
+
+.active.container {
+    filter: blur(5px) brightness(.7);
+}
+
+.popup-container {
+    position: fixed;
+    left: 50%;
+    width: 400px;
+    height: 300px;
+    top: 30%;
+    transform: translateX(-50%);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: url('https://images.unsplash.com/uploads/141103282695035fa1380/95cdfeef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1730&q=80');
+    background-size: cover;
+    border-radius: 10px;
+    opacity: 1;
+    transition: all 0.7s;
+
+}
+
+h4 {
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+    color: blueviolet;
+
+
+}
+
+label {
+    color: blueviolet;
+    font-family: sans-serif;
+}
+
+.popup-btn {
+    background-color: orangered;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid;
+}
+
+.input {
+    border: 2px solid;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 20px;
+}
+.close-icon {
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+
+.close-icon:hover {
+    color: orangered;
+}
+
+.active.popup-container {
+    visibility: hidden;
+    opacity: 0;
+    top: 10%;
+}
