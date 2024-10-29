@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.change-Case-Box {
+    width: 500px;
+    border: 1px solid black;
+    display: flex;
+    overflow-wrap: anywhere;
+    padding: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.change-case-btn {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 450px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.change-case-btn button{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.change-case-heading{
+    font-size: 40px;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400
+}
