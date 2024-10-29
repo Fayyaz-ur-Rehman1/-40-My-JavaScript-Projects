@@ -1,0 +1,12 @@
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    border: 2px solid black;
+}
+
+img {
+    width: 105%;
+    height: 300px;
+    gap: 10px;
+}
